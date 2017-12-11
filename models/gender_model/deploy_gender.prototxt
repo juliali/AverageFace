@@ -1,6 +1,6 @@
 name: "CaffeNet"
 input: "data"
-input_dim: 10
+input_dim: 1
 input_dim: 3
 input_dim: 227
 input_dim: 227
@@ -94,7 +94,7 @@ layers {
   }
 }
 layers{
-  name: "relu3"
+  name: "relu3" 
   type: RELU
   bottom: "conv3"
   top: "conv3"

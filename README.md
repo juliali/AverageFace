@@ -6,7 +6,7 @@
 
 (2) 安装pip
 
-(3) 安装dlib等所需library
+(3) 安装dlib,cv2等所需library
 
 安装dlib有众多方法：
 
@@ -18,9 +18,6 @@
 
 推荐pip，因为这样所有dlib所需要的dependencies可以一并安装
 
-另外，还需要安装scikit-image
-
->   pip install scikit-image
 
 构造平均脸
 ===========
@@ -41,6 +38,8 @@ ${AverageFace_root}> python scripts\average_face_generation.py input_data\presid
 
 
 [2] 基于多张单人照片求平均脸（区分性别）
+
+前提条件：安装caffe， 参照 http://caffe.berkeleyvision.org/installation.html
 
 第一步：将要平均的照片放入${AverageFace_root}\input_data\${sub_dir_name}文档，确保图片为jpg格式。
     例如： input_data\president

@@ -1,4 +1,21 @@
-[0] 在完成各个library的安装后。
+本项目教你用opencv（dlib）做平均脸
+
+[0] 安装dlib等所需library
+
+dlib的安装有众多方法：
+
+可以通过pip直接安装：
+>       pip install dlib
+
+也可以下载源代码后直接编译：
+>       python setup.py install
+
+推荐pip，因为这样所有dlib所需要的dependencies可以一并安装
+
+另外，还需要安装scikit-image
+
+>       pip install scikit-image
+
 
 [1] 基于多张单人照片求平均脸(不区分性别）
 
